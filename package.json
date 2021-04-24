@@ -1,0 +1,21 @@
+{
+  "name": "svelte-infinite-scrolling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte":"src/index.js",
+  "scripts": {
+    "build":"rollup -c",
+    "dev":"rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^1.28.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "svelte": "^3.16.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
