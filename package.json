@@ -5,9 +5,13 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte":"src/index.js",
+  "repository": "https://github.com/jatinhemnani01/svelte-infinite-scrolling",
   "scripts": {
     "build":"rollup -c",
     "dev":"rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/jatinhemnani01/svelte-infinite-scrolling/issues"
   },
   "devDependencies": {
     "rollup": "^1.28.0",
@@ -15,7 +19,13 @@
     "rollup-plugin-svelte": "^5.1.1",
     "svelte": "^3.16.7"
   },
-  "keywords": [],
+  "keywords": [
+    "svelte",
+    "svelte infinite scroll",
+    "svelte infinite scrolling",
+    "scroll",
+    "infinite scroll"
+  ],
   "author": "",
   "license": "ISC"
 }
