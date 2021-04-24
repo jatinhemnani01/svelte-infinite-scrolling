@@ -1,4 +1,4 @@
-# Svelte Infinite Scroll
+# Svelte Infinite Scrolling
 
 [![npm version](https://badge.fury.io/js/svelte-infinite-scroll.svg)](https://www.npmjs.com/package/svelte-infinite-scrolling)
 
