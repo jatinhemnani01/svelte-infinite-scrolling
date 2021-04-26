@@ -1,5 +1,5 @@
 <script>
-  import { onMount, createEventDispatcher } from "svelte";
+  import { createEventDispatcher, afterUpdate } from "svelte";
   const dispatch = createEventDispatcher();
   let bottomHeight = 0;
 
@@ -15,10 +15,7 @@
       }
     });
   }
-  onMount(() => {
+  afterUpdate(() => {
     loadMore();
-    return () => {
-      loadMore();
-    };
   });
 </script>

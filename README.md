@@ -1,6 +1,5 @@
 # Svelte Infinite Scrolling
 
-
 Infinite Scroll Component for Svelte.
 
 ## Installation
@@ -9,11 +8,7 @@ Infinite Scroll Component for Svelte.
 npm i svelte-infinite-scrolling
 ```
 
-
 ## Demo [link](https://svelte-infinite-example.netlify.app/)
-
-
-
 
 ## Examples
 
@@ -36,7 +31,7 @@ An example of how to use the library:
 </script>
 
 {#each posts as item}
-  <img src={item.preview[2]} alt="" />
+  <h1 style="padding:1em">{item.title}</h1>
 {/each}
 
 <InfiniteScroll on:scroll={getPosts} />
@@ -46,10 +41,8 @@ An example of how to use the library:
 
 Component props:
 
-| Prop            | Type   | Default | Description                               |
-| --------------- | ------ | ------- | ----------------------------------------- |
-| `on:scroll`     | function | 0     | Function You Want To Run While Scrolling  |
+| Prop        | Type     | Default | Description                              |
+| ----------- | -------- | ------- | ---------------------------------------- |
+| `on:scroll` | function | 0       | Function You Want To Run While Scrolling |
 
-
-
-### [Buy Me A Coffee](https://www.buymeacoffee.com/jatinhemnani01) 
+### [Buy Me A Coffee](https://www.buymeacoffee.com/jatinhemnani01)
