@@ -1,10 +1,11 @@
 {
   "name": "svelte-infinite-scrolling",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte":"src/index.js",
+  "homepage": "https://svelte-infinite-example.netlify.app/",
   "repository": "https://github.com/jatinhemnani01/svelte-infinite-scrolling",
   "scripts": {
     "build":"rollup -c",
@@ -27,5 +28,5 @@
     "infinite scroll"
   ],
   "author": "Jatin Hemnani",
-  "license": "ISC"
+  "license": "MIT"
 }
