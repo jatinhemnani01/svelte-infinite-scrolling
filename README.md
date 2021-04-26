@@ -51,3 +51,5 @@ Component props:
 | `on:scroll`     | function | 0     | Function You Want To Run While Scrolling  |
 
 
+
+### [Buy Me A Coffee](https://www.buymeacoffee.com/jatinhemnani01) 
